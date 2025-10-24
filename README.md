@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front-end Developer</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700&display=swap');
+    body {
+      margin: 0;
+      font-family: "Vazirmatn", sans-serif;
+      background: #f7faff;
+      color: #1c1c1c;
+    }
+    header {
+      background: linear-gradient(135deg, #0066cc, #008cff);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-top: 8px;
+      opacity: 0.9;
+    }
+    main {
+      max-width: 850px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+      padding: 30px 40px;
+    }
+    h2 {
+      border-right: 5px solid #0077ff;
+      padding-right: 10px;
+      color: #004fa3;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #f3f8ff;
+      border: 1px solid #dce9ff;
+      padding: 10px 14px;
+      border-radius: 8px;
+      margin-bottom: 6px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+
+    /* ✅ اصلاح کامل دکمه‌ها برای موبایل و حالت RTL */
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    a.button {
+      display: inline-block;
+      text-decoration: none;
+      background: #0077ff;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s;
+      text-align: center;
+      min-width: 140px;
+    }
+    a.button:hover {
+      background: #005fcc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 25px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>یزدان تماری</h1>
+    <p>Front-end Developer | HTML • CSS • JavaScript</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>درباره من</h2>
+      <P>YAZDAN TAMMARI</P>
+      <p>
+        من یک توسعه‌دهنده فرانت‌اند هستم که با HTML، CSS و JavaScript کار می‌کنم.
+        علاقه‌مندم پروژه‌های واقعی انجام بدم، طراحی‌های زیبا بسازم و مهارت‌هام رو در مسیر حرفه‌ای‌تر شدن در دنیای وب گسترش بدم.
+      </p>
+    </section>
+
+    <section>
+      <h2>مهارت‌ها</h2>
+      <ul>
+        <li>HTML5، CSS3، JavaScript (ES6+)</li>
+        <li>طراحی واکنش‌گرا (Responsive Design)</li>
+        <li>Flexbox و Grid</li>
+        <li>کار با Git و GitHub</li>
+        <li>WordPress و ابزارهای سئو (Google Analytics, Search Console)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>نمونه پروژه‌ها</h2>
+      <ul>
+        <li>صفحه رزومه شخصی</li>
+        <li>ToDo App با JavaScript برای مدیریت کارها</li>
+        <li>طراحی صفحه فرود فروشگاه اینترنتی</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>تماس با من</h2>
+      <p>
+       
+      </p>
+      <div class="buttons">
+        <a class="button" href="mailto:yazdantamarii90@gmail.com">ارسال ایمیل</a>
+        <a class="button" href="https://github.com/yazdantamarii90" target="_blank">مشاهده GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 yazdanT — ساخته شده   💙
+  </footer>
+
+</body>
+</html>
